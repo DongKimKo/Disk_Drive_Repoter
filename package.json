@@ -1,0 +1,25 @@
+{
+  "name": "drivedisk-temp-repoter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "index.js",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "ini": "^5.0.0",
+    "moment": "^2.30.1",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "pkg": {
+    "targets": [
+      "node16-win-x64"
+    ],
+    "outputPath": "dist",
+    "assets": [
+      "config.ini"
+    ],
+    "scripts": [
+      "index.js"
+    ]
+  }
+}
